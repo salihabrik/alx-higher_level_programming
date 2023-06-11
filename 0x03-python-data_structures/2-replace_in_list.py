@@ -9,3 +9,7 @@ def replace_in_list(my_list, idx, element):
         my_list.pop(idx)
         my_list.insert(idx, element)
         return my_list
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 6c4ed7e283e76c95bb45352136881ec35b893e8e

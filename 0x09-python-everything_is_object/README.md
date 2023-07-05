@@ -13,5 +13,7 @@
 
 >>Note that during interviews for Python positions, you will most likely have to answer to these type of questions.
 
->>All your answers should be only one line in a file. No space before or after the answer.
+>>All your answers should be only one line in a file. No space before or after the answer
+
+
 ![logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/70f9ea0e969dfcc407a7427aba4786d87a920494.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230705%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230705T235416Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=3d542a4149e09141b7aa80c243f66ac5c3d7f014a2c4c69b20182b4c26b05d63)

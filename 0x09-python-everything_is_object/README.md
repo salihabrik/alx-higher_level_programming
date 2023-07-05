@@ -5,7 +5,7 @@
 
 
 
->>Trying examples in the Python interpreter will give you most of the answers without having to think about it
+>>Trying examples in the Python interpreter will give you most of the answers without having to think about i
 
 >> Don’t go this route. First read, then think, then brainstorm together. Only then you can test in the interpreter.
 

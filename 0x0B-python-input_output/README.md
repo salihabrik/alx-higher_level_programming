@@ -2,11 +2,21 @@
 
 Automate the Boring Stuff with Python
 By Al Sweigart. Over 500,000 copies sold. Free to read under a CC license.
+
+
 ![logo](https://automatetheboringstuff.com/images/cover_automate2_thumb.jpg)
+
+
+
 Cover of Automate the Boring Stuff with Python
 "The best part of programming is the triumph of seeing the machine do something useful. Automate the Boring Stuff with Python frames all of programming as these small triumphs; it makes the boring fun."
 - Hilary Mason, Data Scientist and Founder of Fast Forward Labs
+
+
 ![logo](https://inventwithpython.com/images/cover_bigbookpython_thumb.jpg)
+
+
+
 "I'm having a lot of fun breaking things and then putting them back together, and just remembering the joy of turning a set of instructions into something useful and fun, like I did when I was a kid."
 - Wil Wheaton, WilWheaton.net
 

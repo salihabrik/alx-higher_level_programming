@@ -1,4 +1,4 @@
--- list all genres in the database hbtn_0d_tvshows_rate by their rating
+-- list all genre in the database hbtn_0d_tvshows_rate by their rating
 -- list all row in a database linked to a row in another table
 SELECT name, SUM(tv_show_ratings.rate) 'rating'
 FROM tv_genres

@@ -27,4 +27,3 @@ if __name__ == "__main__":
 
     # Close all databasess
     my_db.close()
-    

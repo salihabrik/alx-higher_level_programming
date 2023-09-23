@@ -22,11 +22,7 @@ if __name__ == "__main__":
 
     # Execute a SELECT query to fetch data
     my_cursor.execute(
-        """
-        SELECT * FROM states  WHERE name LIKE BINARY '{}'
-        ORDER BY states.id ASC
-        """.format(argv[4])
-        )
+        "SELECT * FROM states  WHERE name=%s ORDER BY id", (argv[4], ))
 
     # fetch all the data returned by the query
     my_data = my_cursor.fetchall()

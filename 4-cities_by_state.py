@@ -15,28 +15,29 @@ if __name__ == "__main__":
         password=argv[2],
         db=argv[3],
         port=3306
-        )
+    )
 
     # Create cursor obj to interact with database
     my_cursor = my_db.cursor()
 
     # Execute a SELECT query to fetch data
     my_cursor.execute(
-        """
-        SELECT * FROM states  WHERE name LIKE BINARY '{}'
-        ORDER BY states.id ASC
-        """.format(argv[4])
-        )
+        """SELECT cities.id, cities.name, states.name
+        FROM cities
+        JOIN states
+        ON states.id = cities.state_id
+        ORDER BY cities.id"""
+    )
 
-    # fetch all the data returned by the query
+    # fetch all data returned by the query
     my_data = my_cursor.fetchall()
 
     # Iterate through the fetched data and print each row
     for row in my_data:
         print(row)
 
-    # Close all cursors
+    # Close all cursor
     my_cursor.close()
 
-    # Close all databases
+    # Close all database
     my_db.close()

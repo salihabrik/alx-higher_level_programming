@@ -1,9 +1,13 @@
 # Python network
 
 # HTTP (HyperText Transfer Protocol)
-Basics
-Introduction
-The WEB
+
+
+# Basics
+
+## Introduction
+
+## The WEB
 Internet (or The Web) is a massive distributed client/server information system as depicted in the following diagram.
 
 ![Alt text](image.png)

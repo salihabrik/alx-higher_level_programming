@@ -11,4 +11,3 @@ if __name__ == "__main__":
     # Make a GET request to the URL
     with request.urlopen(url) as response:
         print(dict(response.headers).get("X-Request-Id"))
-        

@@ -10,7 +10,8 @@ if __name__ == "__main__":
     owner_name = sys.argv[2]
 
     # GitHub API URL
-    url = 'https://api.github.com/repos/{}/{}/commits'.format(sys.argv[2], sys.argv[1])
+    url = 'https://api.github.com/repos/{}/{}/commits'.format(
+        sys.argv[2], sys.argv[1])
 
     params = {'per_page': 10}
 

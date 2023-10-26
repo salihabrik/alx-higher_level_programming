@@ -8,7 +8,8 @@ request(apiUrl, (error, response, body) => {
   if (!error && response.statusCode === 200) {
     const filmsData = JSON.parse(body).results;
     const moviesWithWedgeAntilles = filmsData.filter((film) =>
-      film.characters.includes(`https://swapi-api.alx-tools.com/api/people/${characterId}/`)
+      film.characters.includes
+      (`https://swapi-api.alx-tools.com/api/people/${characterId}/`)
     );
 
     console.log(moviesWithWedgeAntilles.length);
